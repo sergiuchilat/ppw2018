@@ -1,0 +1,41 @@
+*{
+	background: cyan;
+}
+
+div{
+	border-radius: 15px !important;
+	background: yellow;
+}
+
+.element{
+	background: lightgray; 
+	border: 1px solid red; 
+	color: red; 
+	text-align: center; 
+	width: 200px; 
+	height: 60px;
+}
+
+.element2{
+	background: lightgray; 
+	border: 1px solid red; 
+	color: red; 
+	text-align: center; 
+	width: 200px; 
+	height: 60px;
+	border-radius: 0 !important;
+}
+
+#deosebit{
+	border-radius: 50px;
+	background: green;
+}
+
+
+.circle{
+	background: pink;
+	color: #000000;
+	width: 200px;
+	height: 100px;
+	border-radius: 50% !important;
+}
