@@ -1,0 +1,33 @@
+.element{
+	border: 1px solid red;
+	background: blue;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	width: 200px;
+	height: 150px;	
+	position: static;
+}
+
+.relative{
+	position: relative;
+	background: yellow;
+	left: 50px;
+	top: 50px;
+}
+
+.absolute{
+	position: absolute;
+	background: green;
+	left: 50px;
+	top: 50px;
+}
+
+
+.fixed{
+	position: fixed;
+	background: violet;
+	right: 50px;
+	bottom: 50px;
+}
