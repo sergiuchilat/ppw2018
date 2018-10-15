@@ -1,0 +1,16 @@
+ul.menu{
+	list-style: none;
+	padding: 0;
+}
+
+ul.menu li{
+	background: red;
+	border:1px solid gray;
+
+}
+
+ul.menu li a{
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
