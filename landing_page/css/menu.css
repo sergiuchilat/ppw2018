@@ -1,0 +1,33 @@
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+nav ul li{
+	font-size: 14px;
+	display: inline-block;
+	width: 20%;
+	
+}
+
+nav ul li a{
+	color: white;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+	background: blue;
+	border: 1px solid green;
+}
+
+nav ul li span{
+	color: #123;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+	background: cyan;
+	border: 1px solid lime;
+}

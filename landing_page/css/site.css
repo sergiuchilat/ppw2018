@@ -1,0 +1,37 @@
+:root{
+	--section-height: 200px;
+}
+
+section{
+	border: 1px solid red;
+}
+
+section h2{
+	width: 300px;
+	background: yellow;
+	color: blue;
+	border-radius: 5px;
+	margin:0 auto;
+	text-align: center;
+	padding: 5px;
+}
+
+#home{
+	min-height: var(--section-height);
+}
+
+#photo{
+	min-height: var(--section-height);
+}
+
+#video{
+	min-height: var(--section-height);
+}
+
+#news{
+	min-height: var(--section-height);
+}
+
+#contact{
+	min-height: var(--section-height);
+}
