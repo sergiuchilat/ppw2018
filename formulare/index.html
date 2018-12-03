@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+	<title>Formulare</title>
+</head>
+<body>
+	<form action="" method="GET">
+		Login <input type="text" value="Admin" name="login"> <br>
+		Password <input type="password" placeholder="Enter password" required=""> <br>
+
+		<select name="" id="">
+			<option value="MD">Moldova</option>
+			<option value="RO">Romania</option>
+			<option value="UAE" disabled="">United Arab Emirates</option>
+			<option value="FR" selected="">Franta</option>
+		</select>
+
+		<select name="" id="" multiple="">
+			<option value="MD">Moldova</option>
+			<option value="RO">Romania</option>
+			<option value="UAE" disabled="">United Arab Emirates</option>
+			<option value="FR" selected="">Franta</option>
+		</select>
+
+		<br>
+		Discipline preferate <br>
+		<label for="disciplina_matematica">
+			<input type="checkbox" name="disciplina" id="disciplina_matematica" checked="">
+			Matematica
+		</label>
+		<br>
+		<label for="disciplina_geografia">
+			<input type="checkbox" name="disciplina" id="disciplina_geografia" disabled="">
+			Geografia
+		</label>
+		<br>
+		<label for="disciplina_fizica">
+			<input type="checkbox" name="disciplina" id="disciplina_fizica" checked="">
+			Fizica
+		</label>
+		<br>
+		<label for="disciplina_chimia">
+			<input type="checkbox" name="disciplina" id="disciplina_chimia">
+			Chimia
+		</label>
+
+		<br>
+		Gen
+		<br>
+		<label for="gen_feminin">
+			<input type="radio" id="gen_feminin" name="gen">
+			F
+		</label>
+		<br>
+		<label for="gen_masculin">
+			<input type="radio" id="gen_masculin" name="gen">
+			M
+		</label>
+
+
+		<br>
+
+		<br>
+		<input type="file">
+		<br>
+		Email
+		<input type="email" name="email">
+
+		<input type="color">	
+		<input type="date">
+		<input type="number" step="10">
+
+		Comments <br>
+		<textarea name="" id="" cols="50" rows="10"></textarea>
+
+		<input type="button" value="iButon">
+		<input type="submit" value="Salveaza">
+		<input type="reset" value="clear">
+	</form>
+
+	<p>
+		<h1>Google Search</h1>
+		<form action="https://www.google.com">
+			<input type="text" name="q">
+			<input type="submit" value="Search On Google">
+			<input type="reset" value="clear">
+		</form>
+	</p>
+
+	<a href="https://www.w3schools.com/html/html5_new_elements.asp" target="_blank">Elemente HTML 5 ale formularului</a>
+</body>
+</html>
