@@ -1,0 +1,67 @@
+#zebra{
+	list-style: none;
+	padding: 5px;
+	background: red;
+}
+#zebra li{
+	background: blue;
+}
+
+#zebra li:first-child{
+	background: green !important;
+}
+
+#zebra li:nth-child(odd){
+	background: black !important;
+}
+#zebra li:nth-child(even){
+	background: white !important;
+}
+
+#zebra li:first-child{
+	background: green !important;
+}
+
+#zebra li:last-child{
+	background: cyan !important;
+	color: white;
+}
+
+#zebra li:before{
+	content:'#'
+}
+
+#element:after{
+	content: '*';
+	display: block;
+	background: red;
+	width: 200px;
+	height: 200px;
+}
+
+#element:before{
+	content: '*';
+	display: block;
+	background: blue;
+	width: 200px;
+	height: 200px;
+}
+
+#element{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	background: yellow;
+}
+
+
+#element:first-letter{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
